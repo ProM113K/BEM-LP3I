@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Galano;
+    src: url(GalanoGrotesqueDEMO-Bold.ttf);
+}
+
+body {
+    font-family: Galano;
+    font-size: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* #probem {
+    background-image: url(/img/struktur.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.struktur {
+    width: 100vw fit-content;
+}
+
+.struktur > h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.struktur > img {
+    width: 50%;
+    border: 0.2em solid white;
+    border-radius: 0.5em;
+    margin-left: 25%;
+    margin-top: 1em;
+    margin-bottom: 1.7em;
+    transition: transform 1s;
+}
+
+.struktur > img:hover {
+    width: 60%;
+    border: none;
+    margin-top: -2.5em;
+    margin-left: 20%;
+    border-radius: unset;
+    transform: scale(1.1);
+} */
