@@ -391,3 +391,31 @@ footer {
     height: 25vh;
     padding: 0.5em 1em 0.5em 1em;
 }
+
+@media only screen and (max-width: 720px) {
+    .conainer {
+        width: 100%;
+    }
+    
+    #logo {
+        width: 50%;
+    }
+
+    #kotak {
+        width: 100vh;
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 5px;
+    }
+
+    .pembuka {
+        width: 100%;
+        position: relative;
+    }
+
+    .welcome {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 80%;
+    }
+}
