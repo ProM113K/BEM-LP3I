@@ -261,6 +261,7 @@ footer {
 #lp3i>p {
     float: right;
     width: 79%;
+    text-align: justify;
 }
 
 #lp3i {
@@ -278,6 +279,7 @@ footer {
 #bem>p {
     width: 78%;
     float: left;
+    text-align: justify;
 }
 
 #manfaat {
@@ -429,13 +431,21 @@ aside {
     }
 
     .utama {
-        width: 100%;
+        width: 80%;
+    }
+
+    .lp3i>img {
+        display: none;
+    }
+
+    .utama p {
+        font-size: small;
+        text-align: justify;
     }
 
     #home {
         background-position: center;
         height: 60vh;
         margin-bottom: 3em;
-        display: flex;
     }
 }
