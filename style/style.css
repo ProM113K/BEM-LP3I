@@ -93,15 +93,10 @@ li>a:hover {
     transform: rotate(360deg);
 }
 
-article {
-    display: flex;
-}
-
 .utama {
     background-color: whitesmoke;
-    width: 800px;
+    width: 60vw;
     height: fit-content;
-    margin: auto;
     padding: 1em 1.5em 1em 1.5em;
     border-radius: 8px;
 }
@@ -306,11 +301,9 @@ footer {
     width: 50vw;
 }
 
-#profile {
-    background-image: url(../img/struktur.jpg);
-    height: 50vh;
-    background-position: center;
-    background-size: cover;
+.profile {
+    margin-left: 3em;
+    float: left;
 }
 
 #kotak {
@@ -392,11 +385,27 @@ footer {
     padding: 0.5em 1em 0.5em 1em;
 }
 
+#dimas>img {
+    width: 60%;
+}
+
+aside {
+    border: 2px black dashed;
+    background-color: darkturquoise;
+    border-radius: 5px;
+    padding: 0.5em;
+    float: right;
+    width: 20vw;
+    text-align: center;
+    margin-right: 3em;
+    margin-bottom: 5vh;
+}
+
 @media only screen and (max-width: 720px) {
-    .conainer {
+    .container {
         width: 100%;
     }
-    
+
     #logo {
         width: 50%;
     }
@@ -417,5 +426,16 @@ footer {
         width: 80%;
         margin-left: 10%;
         font-size: 80%;
+    }
+
+    .utama {
+        width: 100%;
+    }
+
+    #home {
+        background-position: center;
+        height: 60vh;
+        margin-bottom: 3em;
+        display: flex;
     }
 }
